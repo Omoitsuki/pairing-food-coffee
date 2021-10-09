@@ -1,0 +1,115 @@
+{
+    "status": 200,
+    "coffees": [
+        {
+            "id": 1,
+            "continent_id": 1,
+            "name": "コーヒー1",
+            "description": null,
+            "bitter": null,
+            "sour": null,
+            "rich": null,
+            "created_at": "2021-10-01T10:29:13.304Z",
+            "updated_at": "2021-10-01T10:29:13.304Z"
+        },
+        {
+            "id": 2,
+            "continent_id": 1,
+            "name": "コーヒー2",
+            "description": null,
+            "bitter": null,
+            "sour": null,
+            "rich": null,
+            "created_at": "2021-10-01T10:29:13.324Z",
+            "updated_at": "2021-10-01T10:29:13.324Z"
+        },
+        {
+            "id": 3,
+            "continent_id": 1,
+            "name": "コーヒー3",
+            "description": null,
+            "bitter": null,
+            "sour": null,
+            "rich": null,
+            "created_at": "2021-10-01T10:29:13.344Z",
+            "updated_at": "2021-10-01T10:29:13.344Z"
+        },
+        {
+            "id": 4,
+            "continent_id": 1,
+            "name": "コーヒー4",
+            "description": null,
+            "bitter": null,
+            "sour": null,
+            "rich": null,
+            "created_at": "2021-10-01T10:29:13.360Z",
+            "updated_at": "2021-10-01T10:29:13.360Z"
+        },
+        {
+            "id": 5,
+            "continent_id": 1,
+            "name": "コーヒー5",
+            "description": null,
+            "bitter": null,
+            "sour": null,
+            "rich": null,
+            "created_at": "2021-10-01T10:29:13.375Z",
+            "updated_at": "2021-10-01T10:29:13.375Z"
+        },
+        {
+            "id": 6,
+            "continent_id": 1,
+            "name": "コーヒー6",
+            "description": null,
+            "bitter": null,
+            "sour": null,
+            "rich": null,
+            "created_at": "2021-10-01T10:29:13.389Z",
+            "updated_at": "2021-10-01T10:29:13.389Z"
+        },
+        {
+            "id": 7,
+            "continent_id": 1,
+            "name": "コーヒー7",
+            "description": null,
+            "bitter": null,
+            "sour": null,
+            "rich": null,
+            "created_at": "2021-10-01T10:29:13.407Z",
+            "updated_at": "2021-10-01T10:29:13.407Z"
+        },
+        {
+            "id": 8,
+            "continent_id": 1,
+            "name": "コーヒー8",
+            "description": null,
+            "bitter": null,
+            "sour": null,
+            "rich": null,
+            "created_at": "2021-10-01T10:29:13.427Z",
+            "updated_at": "2021-10-01T10:29:13.427Z"
+        },
+        {
+            "id": 9,
+            "continent_id": 1,
+            "name": "コーヒー9",
+            "description": null,
+            "bitter": null,
+            "sour": null,
+            "rich": null,
+            "created_at": "2021-10-01T10:29:13.445Z",
+            "updated_at": "2021-10-01T10:29:13.445Z"
+        },
+        {
+            "id": 10,
+            "continent_id": 1,
+            "name": "コーヒー10",
+            "description": null,
+            "bitter": null,
+            "sour": null,
+            "rich": null,
+            "created_at": "2021-10-01T10:29:13.465Z",
+            "updated_at": "2021-10-01T10:29:13.465Z"
+        }
+    ]
+}
