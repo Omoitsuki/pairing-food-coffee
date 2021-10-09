@@ -1,0 +1,25 @@
+{
+    "status": 200,
+    "food": {
+        "id": 1,
+        "name": "お菓子1",
+        "description": null,
+        "taste": null,
+        "sweet": null,
+        "created_at": "2021-10-01T10:29:13.489Z",
+        "updated_at": "2021-10-01T10:29:13.489Z"
+    },
+    "coffees": [
+        {
+            "id": 1,
+            "continent_id": 1,
+            "name": "コーヒー1",
+            "description": null,
+            "bitter": null,
+            "sour": null,
+            "rich": null,
+            "created_at": "2021-10-01T10:29:13.304Z",
+            "updated_at": "2021-10-01T10:29:13.304Z"
+        }
+    ]
+}
