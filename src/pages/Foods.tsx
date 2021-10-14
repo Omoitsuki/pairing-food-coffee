@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
 const Foods: React.FC = () => {
-    return (
-        <>
-            <div>Foods</div>
-        </>
-    );
+  return (
+    <>
+      <div>Foods</div>
+    </>
+  );
 };
 
 export default Foods;
