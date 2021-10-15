@@ -1,95 +1,95 @@
 {
-    "status": 200,
-    "foods": [
-        {
-            "id": 1,
-            "name": "お菓子1",
-            "description": null,
-            "taste": null,
-            "sweet": null,
-            "created_at": "2021-10-01T10:29:13.489Z",
-            "updated_at": "2021-10-01T10:29:13.489Z"
-        },
-        {
-            "id": 2,
-            "name": "お菓子2",
-            "description": null,
-            "taste": null,
-            "sweet": null,
-            "created_at": "2021-10-01T10:29:13.505Z",
-            "updated_at": "2021-10-01T10:29:13.505Z"
-        },
-        {
-            "id": 3,
-            "name": "お菓子3",
-            "description": null,
-            "taste": null,
-            "sweet": null,
-            "created_at": "2021-10-01T10:29:13.519Z",
-            "updated_at": "2021-10-01T10:29:13.519Z"
-        },
-        {
-            "id": 4,
-            "name": "お菓子4",
-            "description": null,
-            "taste": null,
-            "sweet": null,
-            "created_at": "2021-10-01T10:29:13.531Z",
-            "updated_at": "2021-10-01T10:29:13.531Z"
-        },
-        {
-            "id": 5,
-            "name": "お菓子5",
-            "description": null,
-            "taste": null,
-            "sweet": null,
-            "created_at": "2021-10-01T10:29:13.541Z",
-            "updated_at": "2021-10-01T10:29:13.541Z"
-        },
-        {
-            "id": 6,
-            "name": "お菓子6",
-            "description": null,
-            "taste": null,
-            "sweet": null,
-            "created_at": "2021-10-01T10:29:13.551Z",
-            "updated_at": "2021-10-01T10:29:13.551Z"
-        },
-        {
-            "id": 7,
-            "name": "お菓子7",
-            "description": null,
-            "taste": null,
-            "sweet": null,
-            "created_at": "2021-10-01T10:29:13.563Z",
-            "updated_at": "2021-10-01T10:29:13.563Z"
-        },
-        {
-            "id": 8,
-            "name": "お菓子8",
-            "description": null,
-            "taste": null,
-            "sweet": null,
-            "created_at": "2021-10-01T10:29:13.574Z",
-            "updated_at": "2021-10-01T10:29:13.574Z"
-        },
-        {
-            "id": 9,
-            "name": "お菓子9",
-            "description": null,
-            "taste": null,
-            "sweet": null,
-            "created_at": "2021-10-01T10:29:13.586Z",
-            "updated_at": "2021-10-01T10:29:13.586Z"
-        },
-        {
-            "id": 10,
-            "name": "お菓子10",
-            "description": null,
-            "taste": null,
-            "sweet": null,
-            "created_at": "2021-10-01T10:29:13.597Z",
-            "updated_at": "2021-10-01T10:29:13.597Z"
-        }
-    ]
+  "status": 200,
+  "foods": [
+    {
+      "id": 1,
+      "name": "お菓子1",
+      "description": null,
+      "taste": null,
+      "sweet": null,
+      "created_at": "2021-10-01T10:29:13.489Z",
+      "updated_at": "2021-10-01T10:29:13.489Z"
+    },
+    {
+      "id": 2,
+      "name": "お菓子2",
+      "description": null,
+      "taste": null,
+      "sweet": null,
+      "created_at": "2021-10-01T10:29:13.505Z",
+      "updated_at": "2021-10-01T10:29:13.505Z"
+    },
+    {
+      "id": 3,
+      "name": "お菓子3",
+      "description": null,
+      "taste": null,
+      "sweet": null,
+      "created_at": "2021-10-01T10:29:13.519Z",
+      "updated_at": "2021-10-01T10:29:13.519Z"
+    },
+    {
+      "id": 4,
+      "name": "お菓子4",
+      "description": null,
+      "taste": null,
+      "sweet": null,
+      "created_at": "2021-10-01T10:29:13.531Z",
+      "updated_at": "2021-10-01T10:29:13.531Z"
+    },
+    {
+      "id": 5,
+      "name": "お菓子5",
+      "description": null,
+      "taste": null,
+      "sweet": null,
+      "created_at": "2021-10-01T10:29:13.541Z",
+      "updated_at": "2021-10-01T10:29:13.541Z"
+    },
+    {
+      "id": 6,
+      "name": "お菓子6",
+      "description": null,
+      "taste": null,
+      "sweet": null,
+      "created_at": "2021-10-01T10:29:13.551Z",
+      "updated_at": "2021-10-01T10:29:13.551Z"
+    },
+    {
+      "id": 7,
+      "name": "お菓子7",
+      "description": null,
+      "taste": null,
+      "sweet": null,
+      "created_at": "2021-10-01T10:29:13.563Z",
+      "updated_at": "2021-10-01T10:29:13.563Z"
+    },
+    {
+      "id": 8,
+      "name": "お菓子8",
+      "description": null,
+      "taste": null,
+      "sweet": null,
+      "created_at": "2021-10-01T10:29:13.574Z",
+      "updated_at": "2021-10-01T10:29:13.574Z"
+    },
+    {
+      "id": 9,
+      "name": "お菓子9",
+      "description": null,
+      "taste": null,
+      "sweet": null,
+      "created_at": "2021-10-01T10:29:13.586Z",
+      "updated_at": "2021-10-01T10:29:13.586Z"
+    },
+    {
+      "id": 10,
+      "name": "お菓子10",
+      "description": null,
+      "taste": null,
+      "sweet": null,
+      "created_at": "2021-10-01T10:29:13.597Z",
+      "updated_at": "2021-10-01T10:29:13.597Z"
+    }
+  ]
 }
