@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { VFC } from 'react';
+import Layout from '../common/Layout';
 
-const Top: React.FC = () => {
+const Top: VFC = () => {
   return (
     <>
-      <div>Top</div>
+      <Layout>something Components here then will show header and footer with the component</Layout>
     </>
   );
 };
