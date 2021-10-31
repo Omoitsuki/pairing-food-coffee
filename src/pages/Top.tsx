@@ -11,10 +11,10 @@ const Top: VFC = () => {
   useEffect(() => {
     const fetchData = async () => {
       const res = await fetch(URL);
-      const json = await res.json();
+      const json = (await res.json()) as TopPage;
       setTopData(json);
     };
-    fetchData();
+    void fetchData();
   }, []);
 
   return (

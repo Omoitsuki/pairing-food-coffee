@@ -1,6 +1,6 @@
 import React, { VFC, useEffect, useState } from 'react';
 import CoffeesData from '../mock/coffees.json';
-import {  CoffeeType, CoffeesPage } from '../types/type';
+import { CoffeeType, CoffeesPage } from '../types/type';
 import { URL } from '../env';
 
 const Coffees: VFC = () => {
@@ -9,10 +9,10 @@ const Coffees: VFC = () => {
   useEffect(() => {
     const fetchData = async () => {
       const res = await fetch(URL);
-      const json = await res.json();
+      const json = (await res.json()) as CoffeesPage;
       setCoffeesData(json);
     };
-    fetchData();
+    void fetchData();
   }, []);
 
   return (
