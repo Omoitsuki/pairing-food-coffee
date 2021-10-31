@@ -1,9 +1,31 @@
-import React from 'react';
+import React, { VFC, useEffect, useState } from 'react';
+import CoffeesData from '../mock/coffees.json';
+import { CoffeeType, CoffeesPage } from '../types/type';
+import { URL } from '../env';
 
-const Coffees: React.FC = () => {
+const Coffees: VFC = () => {
+  const [coffeesData, setCoffeesData] = useState(CoffeesData as CoffeesPage);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const res = await fetch(URL);
+      const json = (await res.json()) as CoffeesPage;
+      setCoffeesData(json);
+    };
+    void fetchData();
+  }, []);
+
   return (
     <>
-      <div>Coffees</div>
+      <div>Status: {coffeesData.status}</div>
+      <div>
+        <span>Coffees</span>
+        {coffeesData.coffees.map((coffee: CoffeeType, index: number) => (
+          <div key={index}>
+            <div>{coffee.name}</div>
+          </div>
+        ))}
+      </div>
     </>
   );
 };

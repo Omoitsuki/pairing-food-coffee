@@ -26,3 +26,31 @@ export interface CoffeeType {
   created_at: string;
   updated_at: string;
 }
+
+export interface TopPage {
+  status: number;
+  continents: ContinentType[];
+  foods: FoodType[];
+}
+
+export interface FoodsPage {
+  status: number;
+  foods: FoodType[];
+}
+
+export interface FoodDetailPage {
+  status: number;
+  food: FoodType;
+  coffees: CoffeeType[];
+}
+
+export interface CoffeesPage {
+  status: number;
+  coffees: CoffeeType[];
+}
+
+export interface CoffeeDetailPage {
+  status: number;
+  coffee: CoffeeType;
+  foods: FoodType[];
+}
